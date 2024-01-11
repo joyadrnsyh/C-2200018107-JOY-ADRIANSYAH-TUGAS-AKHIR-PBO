@@ -100,7 +100,6 @@ public class TTT1 extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         if (vsKomputerMenuItem.isSelected()) {
-            // Logika bermain melawan komputer
             if (e.getSource() == reset) {
                 for (JButton button : b) {
                     button.setIcon(null);
@@ -115,7 +114,6 @@ public class TTT1 extends JFrame implements ActionListener {
                 }
             }
         } else if (vsTemanMenuItem.isSelected()) {
-            // Logika bermain melawan teman
             if (e.getSource() == reset) {
                 for (JButton button : b) {
                     button.setIcon(null);
